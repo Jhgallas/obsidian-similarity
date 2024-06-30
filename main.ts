@@ -27,7 +27,6 @@ export default class MyPlugin extends Plugin {
     async onload() {
         this.setPythonCommand();
         await this.loadSettings();
-        this.addSettingTab(new SampleSettingTab(this.app, this));
         this.addCommands();
         await this.checkPythonRequirements();
         await this.runTokenizerScriptOnLoad();
