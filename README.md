@@ -101,7 +101,13 @@ For troubleshooting, an additional two commands are made available:
 
 Hotkeys can be assigned to any of these commands via Obsidian settings, but should not be assigned by default by plugins.
 
-Additionally, as more basic functionalities are still in development, verbose logging has been kept in the plugin, which can be viwed from the Obsidian developer console (Ctrl + Shift + I / Cmd + Option + I)
+As more basic functionalities are still in development, verbose logging has been kept in the plugin, which can be viwed from the Obsidian developer console (Ctrl + Shift + I / Cmd + Option + I)
+
+Additionally, you might want to reduce the forces in the stock graph to near zero - in vaults with too many unconnected notes (orphans), having high forces can draw them to the center of the graph, even after running the organization command.
+
+
+https://github.com/Jhgallas/obsidian-similarity/assets/77229674/c1909f8b-8967-43c0-a2f0-71975979fcc2
+
 
 
 # Implementation details
