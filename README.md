@@ -5,6 +5,8 @@ Obsidian Similarity Toolkit is an experimental plugin for [Obsidian](https://obs
 
 This is accomplished by creating embeddings for each of the files in your vault, composed of tokens that encode their meaning. The numerical similarity of these tokens attempts to represent, due to the training of the model, the semantic similarity between two tokens. In aggregate, the embeddings for an entire text (in this case, a note), can be used to calculate it's similarity to any other text encoded using the same embeddings. 
 
+<img width="843" alt="Screenshot 2024-06-25 at 10 15 10" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/a3e6836e-6648-48f7-966c-719f7588fab1">
+
 Adding this to the Obsidian vault, and representing it in the graph entails the following core functionalities:
 
 - **Instantiation of an embedding model:** The sample model being used in the current version of this plugin is [gte-base](https://huggingface.co/thenlper/gte-base), a lightweight model that uses around 500mb of memory. The GTE family of models, by Alibaba, perform incredibly well on the [MTEB (Massive Text Embedding Benchmark) leaderboard](https://huggingface.co/spaces/mteb/leaderboard) for text clustering for their size, and were chosen for this reason. Instantiation of the model is enormously simplified thanks to the SentenceTransformers library. The model is run fully locally apart from caching from HuggingFace, and no text information is sent to external servers. The goal is to extend this toolkit to use any other embedding model, be they local or run from an API.
@@ -75,6 +77,12 @@ Once installation is complete, you can open the graph and run the 'Organize grap
 
 - If you have disabled the command pallete, it might need to be re-enabled in core plugin settings
 
+
+
+Uploading Running command.mov…
+
+
+
 For troubleshooting, an additional two commands are made available:
 
 - "Manually re-calculate embeddings" will restart the embedding process for the entire vault.
@@ -83,6 +91,7 @@ For troubleshooting, an additional two commands are made available:
 Hotkeys can be assigned to any of these commands via Obsidian settings, but should not be assigned by default by plugins.
 
 Additionally, as more basic functionalities are still in development, verbose logging has been kept in the plugin, which can be viwed from the Obsidian developer console (Ctrl + Shift + I / Cmd + Option + I)
+
 
 # Implementation details
 
