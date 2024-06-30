@@ -1,6 +1,3 @@
-
-https://github.com/Jhgallas/obsidian-similarity/assets/77229674/3f07ce5b-cf6f-4f95-be27-f4a9a44d97bb
-
 # Overview
 
 Obsidian Similarity Toolkit is an experimental plugin for [Obsidian](https://obsidian.md/) that adds semantic embedding similarity calculation to your vault using a fully local embedding model, allowing nodes in your vault graph to be positioned according to their semantic similarity to each other, in addition to the various other dimensions (links, color groupings, tags) already present in the Obsidian graph. 
@@ -93,6 +90,8 @@ As this is an experimental plugin involving Python code inside Obsidian, install
 Once installation is complete, you can open the graph and run the 'Organize graph with similarity' command from the Obsidian command palette, accessed using Ctrl/Cmd + P. This should be the only command you need, and an automatic organization when the graph is opened is being worked on so that no commands are necessary. 
 
 - If you have disabled the command pallete, it might need to be re-enabled in core plugin settings
+
+https://github.com/Jhgallas/obsidian-similarity/assets/77229674/3f07ce5b-cf6f-4f95-be27-f4a9a44d97bb
 
 For troubleshooting, an additional two commands are made available:
 
