@@ -15,7 +15,7 @@ Adding this to the Obsidian vault, and representing it in the graph entails the 
 
 And...
 
-- [WORK IN PROGRESS] Other tools that leverage these same bases.
+- [WORK IN PROGRESS] Other tools that leverage these same bases: Tools to help users who do not currently have an organization in their vaults, or have few links, to create these from scratch using the same similarity calculation
 
 The main goal of creating this additional dimension of text similarity is to enchance the "reflective process" of using Obsidian for note-taking and organization (a "tool for thought" that is already widely used to that end), featuring a broad ecosystem of other plugins and tools that can be used together to aid in that practice. Typically, Obsidian users will organize the files in their vault by using folders, tags, or a combination of the two, and will create links between note files that are represented in the graph (many examples of this can be seen in the "share and showcase" section of the Obsidian Community). 
 
