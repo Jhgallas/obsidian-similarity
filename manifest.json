@@ -1,0 +1,10 @@
+{
+	"id": "similarity-toolkit",
+	"name": "Obsidian Similarity toolkit",
+	"version": "0.1.0",
+	"minAppVersion": "0.12.0",
+	"description": "Obsidian Similarity Toolkit is an experimental Plugin for Obsidian that adds semantic embeddings similarity calculation to your vault using a fully local embedding model, allowing nodes in your vault graph to be positioned according to their semantic similarity to each other, in addition to the various other dimensions (links, color groupings, tags) already present in the Obsidian Graph.",
+	"author": "JhGallas",
+	"authorUrl": "https://github.com/Jhgallas",
+	"isDesktopOnly": true
+}
