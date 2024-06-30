@@ -44,6 +44,7 @@ Another useful application is for a user interested in finding unexpected connec
 For instance, a node that is very close to another cluster but not actually connected to it might serve as an excellent entry point. This situation invites the user to explore potential connections between this note and the notes now positioned around it. Such an observation can prompt the user to consider connections between two topics that might have previously seemed unrelated, thereby uncovering new pathways for thought and exploration within their vault.
 
 <img width="500" alt="Finding connections" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/c9e1dd9e-c4a2-413f-afc8-14b72d94fb7d">
+
 > Example of two notes, placed very far away from their tag groupings - memory and retrieval (from a book reading) and breadth first search (from class notes). Clear relation of retrieval and very similar language on inspection - could lead to writing an interesting note!
 
 ### Limitations in vaults with very few notes
