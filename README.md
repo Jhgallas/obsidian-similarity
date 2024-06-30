@@ -33,7 +33,7 @@ Let's say a user is interested in keeping an organization of their notes in tags
 
 For example, a user might notice a distinct cluster of notes, featuring many different colors representing different tags. Since these tags were likely created over a long period, the user might not have realized that these notes could belong to the same group. This recognition can prompt the user to reflect on what this new potential grouping represents. For instance, they might discover that working notes from various projects, each tagged by project name, all relate to text processing software. This realization can inspire the user to create a new "text processing software" tag, prompting them to write more comprehensive notes on this topic in the future and link related notes from different projects. Or, they might decide that it actually represents two different groups, and keep two tags in that same cluster, but orthogonally add any of the notes to them.
 
-<img width="851" alt="Finding groups" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/cea60883-26b6-42f5-9ee5-ad14ddcdbe93">
+<img width="500" alt="Finding groups" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/cea60883-26b6-42f5-9ee5-ad14ddcdbe93">
 
 > Example of a grouping with many different tags, but clear possible grouping, that lead to a reorganization and creating of topics around them
 
@@ -43,7 +43,7 @@ Another useful application is for a user interested in finding unexpected connec
 
 For instance, a node that is very close to another cluster but not actually connected to it might serve as an excellent entry point. This situation invites the user to explore potential connections between this note and the notes now positioned around it. Such an observation can prompt the user to consider connections between two topics that might have previously seemed unrelated, thereby uncovering new pathways for thought and exploration within their vault.
 
-<img width="825" alt="Finding connections" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/c9e1dd9e-c4a2-413f-afc8-14b72d94fb7d">
+<img width="500" alt="Finding connections" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/c9e1dd9e-c4a2-413f-afc8-14b72d94fb7d">
 > Example of two notes, placed very far away from their tag groupings - memory and retrieval (from a book reading) and breadth first search (from class notes). Clear relation of retrieval and very similar language on inspection - could lead to writing an interesting note!
 
 ### Limitations in vaults with very few notes
@@ -52,7 +52,7 @@ If a user is interested in using Obsidian, and potentially exploring the Obsidia
 
 For example, if a user has just started using Obsidian and has only created notes on three different topics – "Daily Journal," "Project Ideas," and "Book Summaries" – the semantic similarity calculation might simply reflect these topics as three isolated clusters. While this does show the separation of topics, it doesn't offer much beyond what the user already knows from their initial categorization. 
 
-<img width="910" alt="Few files" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/f3ff539d-02a9-4519-9d51-08804bb330e8">
+<img width="500" alt="Few files" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/f3ff539d-02a9-4519-9d51-08804bb330e8">
 
 > Example with very few files, and only a couple of links. We can try to see patterns, but there are too few points for them to mean anything.
 
@@ -62,7 +62,7 @@ Similarly, even if they have a solid amount of notes, such as if they have impor
 
 For instance, a user might import tens of notes from a previous note-taking app, resulting in a vault with a significant amount of content but lacking any internal organization – no tags, folders, or links between notes. When the similarity organization is performed, the resulting graph may show clusters that are helpful to some extent, but it cannot help the user create connections between all notes, and the completely loose relation between clusters might make it very difficult to create any tags or groupings.
 
-<img width="358" alt="No links" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/fc291cad-6a2d-44d0-bf10-317dea217d06">
+<img width="500" alt="No links" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/fc291cad-6a2d-44d0-bf10-317dea217d06">
 
 > Example of vault with no links or groupings - we can see some patterns, but hard to know where to start!
 
