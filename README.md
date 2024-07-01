@@ -49,7 +49,7 @@ For instance, a node that is very close to another cluster but not actually conn
 
 ### Limitations in vaults with very few notes
 
-If a user is interested in using Obsidian, and potentially exploring the Obsidian Similarity Toolkit with a vault containing only a handful of notes, they may encounter some limitations. In this case, the similarity organization is likely to not be very expressive, as there are not enough notes for patterns to begin to form. The opposite might also be true, if among these few notes are several that are highly similar to each other. The resulting graph may show these notes "paired up" tightly together, without too clrear relation between clusters, which might not provide much new insight or reflection opportunities.
+If a user is interested in using Obsidian, and potentially exploring the Obsidian Similarity Toolkit with a vault containing only a handful of notes, they may encounter some limitations. In this case, the similarity organization is likely to not be very expressive, as there are not enough notes for patterns to begin to form. The opposite might also be true, if among these few notes are several that are highly similar to each other. The resulting graph may show these notes "paired up" tightly together, without too clear relation between clusters, which might not provide much new insight or reflection opportunities.
 
 For example, if a user has just started using Obsidian and has only created notes on three different topics – "Daily Journal," "Project Ideas," and "Book Summaries" – the semantic similarity calculation might simply reflect these topics as three isolated clusters. While this does show the separation of topics, it doesn't offer much beyond what the user already knows from their initial categorization. 
 
@@ -59,9 +59,9 @@ For example, if a user has just started using Obsidian and has only created note
 
 ### Limitations in unstructured vaults 
 
-Similarly, even if they have a solid amount of notes, such as if they have imported notes from another app, but these notes do not have any linking between them, or any tags or folders organization that can be added as rules, the utility of the Obsidian Similarity Toolkit may be limited. The plugin relies on existing structures to some extent to enhance its insights and to create meaningful visualizations in the graph.
+Similarly, even if they have a solid amount of notes - such as if they have imported notes from another app - but these notes do not have any linking between them like tags or folders organization that can be added as rules, the utility of the Obsidian Similarity Toolkit may be limited. The plugin relies on existing structures to some extent to enhance its insights and to create meaningful visualizations in the graph.
 
-For instance, a user might import tens of notes from a previous note-taking app, resulting in a vault with a significant amount of content but lacking any internal organization – no tags, folders, or links between notes. When the similarity organization is performed, the resulting graph may show clusters that are helpful to some extent, but it cannot help the user create connections between all notes, and the completely loose relation between clusters might make it very difficult to create any tags or groupings.
+For instance a user might import tens of notes from a previous note-taking app, resulting in a vault with a significant amount of content but lacking any internal organization – no tags, folders, or links between notes. When the similarity organization is performed, the resulting graph may show clusters that are helpful to some extent, but it cannot help the user create connections between all notes, and the completely loose relation between clusters might make it very difficult to create any tags or groupings.
 
 <img width="500" alt="No links" src="https://github.com/Jhgallas/obsidian-similarity/assets/77229674/fc291cad-6a2d-44d0-bf10-317dea217d06">
 
@@ -76,7 +76,7 @@ As this is an experimental plugin involving Python code inside Obsidian, install
   - On Windows, Python is recommended to be installed and automatically added from the Microsoft Store
 - Make sure that you have [Obsidian](https://obsidian.md/) installed and at least one vault created.
 	- Make sure ["safe mode" is disabled in settings](https://help.obsidian.md/Extending+Obsidian/Plugin+security) on the Obsidian vault you wish to use.
-- Download or clone this repository. If you are manually douwnloading, move the obsidian-similarity-toolkit folder to `[yourvault]/.obsidian/plugins`. If you prefer to clone, point git to that folder.
+- Download or clone this repository. If you are manually downloading, move the obsidian-similarity-toolkit folder to `[yourvault]/.obsidian/plugins`. If you prefer to clone, point git to that folder.
 	- "Show hidden folders" might need to be enabled for .obsidian to appear.
 	- If no plugins have been installed, you might need to create the 'plugins' folder.
 - Re-open obsidian, and the plugin should be present under Community Plugins in settings.
