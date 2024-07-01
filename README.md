@@ -1,6 +1,6 @@
 # Overview
 
-Obsidian Similarity Toolkit is an experimental plugin for [Obsidian](https://obsidian.md/) that adds semantic embedding similarity calculation to your vault using a fully local embedding model, allowing nodes in your vault graph to be positioned according to their semantic similarity to each other, in addition to the various other dimensions (links, color groupings, tags) already present in the Obsidian graph. 
+Obsidian Similarity Toolkit is an experimental plugin for [Obsidian](https://obsidian.md/) that adds semantic embedding similarity calculation to your vault using a fully local embedding model. This allows nodes in your vault graph to be positioned according to their semantic similarity to each other, in addition to the various other dimensions (links, color groupings, tags) already present in the Obsidian graph. 
 
 This is accomplished by creating embeddings for each of the files in your vault, composed of tokens that encode their meaning. The numerical similarity of these tokens attempts to represent, due to the training of the model, the semantic similarity between two tokens. In aggregate, the embeddings for an entire text (in this case, a note), can be used to calculate it's similarity to any other text encoded using the same embeddings. 
 
